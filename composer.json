@@ -1,0 +1,17 @@
+{
+    "name": "stefan/project-simple-php",
+    "description": "A simple project without a framework",
+    "type": "project",
+    "require": {
+        "php-di/php-di": "^6.0",
+        "relay/relay": "2.x@dev",
+        "zendframework/zend-diactoros": "^1.7",
+        "middlewares/fast-route": "^1.2",
+        "middlewares/request-handler": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExampleApp\\": "src/"
+        }
+    }
+}
